@@ -1,0 +1,20 @@
+const dolphinsRound1 = 96;
+const dolphinsRound2 = 108;
+const dolphinsRound3 = 89;
+
+const koalasRound1 = 88;
+const koalasRound2 = 91;
+const koalasRound3 = 110;
+
+const scoreDolphins = "dolphinsRound1 + dolphinsRound2 + dolphinsRound3";
+const scoreKoalas = "koalasRound1 + koalasRound2 + koalasRound3";
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy")
+} else if (scoreDolphins < scoreKoalas) {
+    console.log("Koalas win the trophy")
+} else {
+    (scoreDolphins === scoreKoalas)
+    console.log("Both win the trophy");
+}
